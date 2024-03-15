@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.root}>
       <div className="overflow-x-auto py-0 px-auto md:py-10 md:px-10">
-        <div className="text-xl font-semibold text-[#04524E] mb-4">Pilih Charge Station</div>
+        <div className="text-xl mt-4 ml-2 md:mt-0 md:ml-0 font-semibold text-[#04524E] mb-4">Pilih Charge Station</div>
         <div className={styles.card}>
           {data && data?.publicChargeStation?.map((item: any) => {
             return (
