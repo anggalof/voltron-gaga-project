@@ -1,0 +1,6 @@
+.root {
+  display: block;
+  background-color: #04524E;
+  height: 100vh;
+  overflow-y: auto;
+}
